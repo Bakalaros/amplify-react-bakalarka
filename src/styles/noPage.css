@@ -1,0 +1,94 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.page {
+    height: 100vh;
+    background-color: #333333; /* Farba pozadia celej stránky */
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-noPage {
+    width: 100%;
+
+}
+.error-message {
+    text-align: center;
+    color: #ff6666;
+    padding: 10px;
+}
+.error{
+    font-size: 90px;
+    font-weight: bold;
+}
+.error-text{
+    font-size: 50px;
+}
+
+@media screen and (max-width: 3840px) {
+    .error {
+        font-size: 350px;
+    }
+    .error-text {
+        font-size: 200px;
+    }
+}
+
+@media screen and (max-width: 2560px) {
+    .error {
+        font-size: 250px;
+    }
+    .error-text {
+        font-size: 160px;
+    }
+}
+
+@media screen and (max-width: 1920px) {
+    .error {
+        font-size: 180px;
+    }
+    .error-text {
+        font-size: 110px;
+    }
+}
+
+@media screen and (max-width: 1440px) {
+    .error {
+        font-size: 140px;
+    }
+    .error-text {
+        font-size: 80px;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .error {
+        font-size: 80px;
+    }
+    .error-text {
+        font-size: 60px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .error {
+        font-size: 60px;
+    }
+    .error-text {
+        font-size: 40px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .error {
+        font-size: 30px;
+    }
+    .error-text {
+        font-size: 18px;
+    }
+}

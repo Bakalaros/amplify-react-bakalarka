@@ -1,0 +1,168 @@
+.about-page {
+    top: 0;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.video-background-about {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    z-index: -100;
+}
+
+.video-about {
+    min-width: 100%;
+    min-height: 100%;
+}
+
+.about-title {
+    padding-top: 175px;
+    color: white;
+    font-size: 50px;
+    font-family: "Merriweather", serif;
+    text-align: center;
+}
+
+.objectives-table {
+    margin-top: 70px;
+    width: 90%;
+    border-collapse: collapse;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: space-around;
+}
+
+.objectives-table td {
+    padding: 20px;
+    flex: 1;
+    box-sizing: border-box;
+}
+
+.objectives-table h2 {
+    font-family: "Merriweather", serif;
+    font-size: 30px;
+    color: white;
+}
+
+.objectives-table p {
+    color: white;
+    font-size: 20px;
+    line-height: 1.5;
+    margin-top: 10px;
+}
+
+@media screen and (max-width: 2560px) {
+
+    .about-title {
+        padding-top: 200px;
+        font-size: 80px;
+    }
+
+    .objectives-table h2 {
+        font-size: 50px;
+    }
+
+    .objectives-table p {
+        font-size: 40px;
+        line-height: 1.5;
+        margin-top: 20px;
+    }
+
+}
+@media screen and (max-width: 1920px) {
+
+    .about-title {
+        padding-top: 175px;
+        font-size: 50px;
+    }
+
+
+    .objectives-table h2 {
+        font-size: 30px;
+    }
+
+    .objectives-table p {
+        font-size: 34px;
+        line-height: 1.5;
+        margin-top: 20px;
+    }
+
+}
+@media screen and (max-width: 1440px) {
+
+    .about-title {
+        padding-top: 150px;
+        font-size: 60px;
+    }
+
+    .objectives-table td {
+        display: block;
+        width: 100%;
+        margin-top: 30px;
+    }
+
+    .objectives-table h2 {
+        font-size: 50px;
+    }
+
+    .objectives-table p {
+        font-size: 34px;
+        line-height: 1.5;
+        margin-top: 20px;
+    }
+
+}
+@media screen and (max-width: 1024px) {
+
+    .about-title {
+        padding-top: 120px;
+        font-size: 40px;
+    }
+
+    .objectives-table td {
+        display: block;
+        width: 100%;
+        margin-top: 20px;
+    }
+
+    .objectives-table h2 {
+        font-size: 40px;
+    }
+
+    .objectives-table p {
+        font-size: 20px;
+        line-height: 1.5;
+        margin-top: 15px;
+    }
+}
+@media screen and (max-width: 760px) {
+
+    .about-title {
+        padding-top: 100px;
+        font-size: 30px;
+    }
+
+    .objectives-table td {
+        display: block;
+        width: 100%;
+        margin-top: 15px;
+    }
+
+    .objectives-table h2 {
+        font-size: 20px;
+    }
+
+    .objectives-table p {
+        font-size: 10px;
+        line-height: 1.5;
+        margin-top: 10px;
+    }
+
+}
